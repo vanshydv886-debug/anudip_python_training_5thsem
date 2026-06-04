@@ -1,5 +1,5 @@
 #program to guess number game
-ecret = 25   # Fixed secret number
+secret = 25   # Fixed secret number
 
 guess = 0
 attempts = 0
