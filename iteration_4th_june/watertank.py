@@ -9,4 +9,4 @@ while water < 100:
     water = water + 10  # increase water level by 10 liters each minute
     print("Water Level:", water, "liters")
 
-print("Tank is full.")
+print("Tank is full.") 
