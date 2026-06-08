@@ -4,7 +4,7 @@ sales = {     "Laptop": 15,     "Mouse": 45,     "Keyboard": 32,     "Monitor": 
 
 #display product sod more than 20 times 
 print("products sold more than 20 times ")
-for product quantity in sales_items:
+for product quantity in sales_items():
     if quantity > 20 :
         print(product)
 
