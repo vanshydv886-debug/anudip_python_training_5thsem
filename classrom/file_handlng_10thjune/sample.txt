@@ -1,0 +1,4 @@
+ Hello World
+Python is easy to learn
+File handling is important
+We are counting vowels characters and lines
