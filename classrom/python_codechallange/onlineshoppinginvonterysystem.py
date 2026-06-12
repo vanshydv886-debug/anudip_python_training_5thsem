@@ -14,7 +14,7 @@ inventory = {
 
 print("Products with Stock Below 15:")
 for product, stock in inventory.items():
-    if stock < 15:g
+    if stock < 15:
         print(product)
 
 highest = max(inventory, key=inventory.get)
@@ -25,6 +25,7 @@ print("Lowest Stock Product:", lowest, "(", inventory[lowest], "units)", sep="")
 
 total_stock = sum(inventory.values())
 print("Total Stock Available:", total_stock)
+
 
 restocking = []
 
