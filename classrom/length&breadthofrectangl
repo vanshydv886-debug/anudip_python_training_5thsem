@@ -1,0 +1,11 @@
+#progam for length and breadth of rctangle 
+length = float(input("Enter the length : "))
+if(length < 0 ):
+   print("length cannot be negative")
+breadth = float(input("Enter the breadth : "))
+if(breadth < 0 ):
+   print("breadth cannot be negative")
+
+print("area of rectangle : " , length*breadth)
+print("perimeter of rectangle : ", 2*(length+breadth))
+

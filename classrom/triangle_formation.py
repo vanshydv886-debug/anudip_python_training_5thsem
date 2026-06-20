@@ -1,21 +1,27 @@
-#program to check if three angles can form triangle or not
-#if yes then specify 
-#validate angle1
-if(angle1 <= 0):
+ # Input first angle
+angle1 = float(input("Enter first angle: "))
+
+# Validate first angle
+if angle1 <= 0:
     exit("Angle must be positive")
-#--------------------------------------
-angle2 = float(float(input("enter second angle :  ")))
-#validate angle2
-if(angle2 <=0):
+
+# Input second angle
+angle2 = float(input("Enter second angle: "))
+
+# Validate second angle
+if angle2 <= 0:
     exit("Angle must be positive")
-#---------------------------------------
-angle3 = float(input("enter third angle : "))
-#validate angles
-if(angle3 <= 0):
+
+# Input third angle
+angle3 = float(input("Enter third angle: "))
+
+# Validate third angle
+if angle3 <= 0:
     exit("Angle must be positive")
-#---------------------------------------
-#verifying triangle formation
-if(angle1 + angle2 + angle3 == 180):
+
+# Verify whether the three angles can form a triangle
+# Sum of all angles in a triangle must be 180 degrees
+if angle1 + angle2 + angle3 == 180:
     print("Above angles form a triangle")
-    else:
-        print("above angles do not form any triangle")
+else:
+    print("Above angles do not form a triangle")

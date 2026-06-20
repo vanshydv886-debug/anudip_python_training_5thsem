@@ -15,4 +15,4 @@ if t <= 0:
 
 si = (p * r * t) / 100
 
-print("Simple Interest =", si)
+print("Simple Interest =", si) 
