@@ -1,10 +1,11 @@
-pin = 1234
+#program for atm verification 
+pin = "1234"
 
 while True:
-    user_pin == pin:
+    user_pin = input("Enter PIN: ")
 
     if user_pin == pin:
-        print("access Granted. ")
+        print("Access Granted.")
         break
     else:
-        print("Incorrect PIN. try again.")
+        print("Incorrect PIN. Try again.")
