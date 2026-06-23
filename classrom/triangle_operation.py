@@ -4,10 +4,9 @@ b = float(input("Enter second side : "))
 c = float(input("Enter third side : "))
 
 # Validate sides
-if a <= 0 or b <= 0 or c <= 0:
-    print("Sides must be positive")
-else:
-    # Check if sides form a triangle
+if a <= 0 or b <= 0 or c <= 0:  #or use tb hoga jbb agr ek bhi side negative then then answer give error
+    print("Sides must be positive")  #Program negative side ko accept kar lega, jo galat hai.  jb teeno sid positive niklani ho thrn use this
+else:                                 #a > and b>0 and c>0: then it give true if all are positive
     if a + b > c and a + c > b and b + c > a:
         print("The sides form a triangle")
 
