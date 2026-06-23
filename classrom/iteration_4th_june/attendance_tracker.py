@@ -1,16 +1,19 @@
-#program for the attendance tracker for students 
+#program for attendance counter
 student = 1
 present = 0
 absent = 0
-while student <=30;
-    status = input(input(f"student {i} attendance (present/absentg)"))
 
-    ifstatus == "present"
+while student <= 30:
+    status = input(f"Student {student} attendance (Present/Absent): ")
+
+    if status == "Present":
         present += 1
-    elif status == "Absent"
+    elif status == "Absent":
         absent += 1
     else:
-        print("invalid input")
+        print("Invalid input")
 
-print("No of student present:" present )
-print("No of student absent:" absent )
+    student += 1
+
+print("No of Students Present:", present)
+print("No of Students Absent:", absent)
