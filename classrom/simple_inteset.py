@@ -1,7 +1,7 @@
 p = float(input("Enter Principal Amount: "))
 if p <= 0:
     print("Invalid Principal Amount")
-    exit()
+    exit()     #we have taken exit beacuse age p is negative baki 2 term positive theen answer is negative but si cannot be negative
 
 r = float(input("Enter Rate of Interest: "))
 if r <= 0:
